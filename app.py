@@ -10,7 +10,7 @@ import cv2
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = '/home/madhudimple/RuTAG/Upload File'
+UPLOAD_FOLDER = '/home/madhudimple/RuTAG/Upload_file'
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
